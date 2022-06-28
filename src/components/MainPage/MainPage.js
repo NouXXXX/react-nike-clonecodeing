@@ -6,12 +6,12 @@ export default function MainPage() {
       <div>
         <img
           width="1352px"
-          src="./images/MoveToZero.jpeg"
+          src="https://static-breeze.nike.co.kr/kr/ko_kr//cmsstatic/structured-content/65250/220531_cdp_replay_p1_bg1.jpg"
           className="MoveToZero"
         />
         <img
           width="719px"
-          src="./images/MoveToZero2.jpeg"
+          src="https://static-breeze.nike.co.kr/kr/ko_kr//cmsstatic/structured-content/65250/220531_cdp_replay_p1_bg2.jpg"
           className="MoveToZero2"
         />
       </div>
