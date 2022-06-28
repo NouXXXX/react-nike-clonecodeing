@@ -1,0 +1,88 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Lato, Helvetica, Arial, sans-serif;
+  background: #eee;
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  text-decoration: none;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  font-weight: bold;
+}
+
+.mtz2 {
+  float: right;
+  border: 2px soild black;
+}
+
+#redWrite {
+  color: #ff5101;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid black;
+}
+
+.menubar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menubar > ul > li {
+  list-style: none;
+}
+
+.menubar > ul > span {
+  font-weight: bold;
+}
+
+.mtz2 {
+  position: relative;
+  float: right;
+  border: 2px solid black;
+  left: -161px;
+}
+
+.Mainbio {
+  padding: 50px;
+  height: 359px;
+  width: 803px;
+  border: 2px solid black;
+  position: relative;
+  float: left;
+  right: -153px;
+  font-size: 20px;
+}
+
+.Mainbio > p {
+  margin-top: 80px;
+}
