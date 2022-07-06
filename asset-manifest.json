@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-nike-clonecodeing/static/css/main.f7dcfc09.css",
-    "main.js": "/react-nike-clonecodeing/static/js/main.3cc22cb4.js",
+    "main.css": "/react-nike-clonecodeing/static/css/main.2079f21c.css",
+    "main.js": "/react-nike-clonecodeing/static/js/main.afb5944a.js",
     "index.html": "/react-nike-clonecodeing/index.html",
-    "main.f7dcfc09.css.map": "/react-nike-clonecodeing/static/css/main.f7dcfc09.css.map",
-    "main.3cc22cb4.js.map": "/react-nike-clonecodeing/static/js/main.3cc22cb4.js.map"
+    "main.2079f21c.css.map": "/react-nike-clonecodeing/static/css/main.2079f21c.css.map",
+    "main.afb5944a.js.map": "/react-nike-clonecodeing/static/js/main.afb5944a.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7dcfc09.css",
-    "static/js/main.3cc22cb4.js"
+    "static/css/main.2079f21c.css",
+    "static/js/main.afb5944a.js"
   ]
 }
