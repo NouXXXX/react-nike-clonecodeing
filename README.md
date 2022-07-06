@@ -1,4 +1,4 @@
 # React 팀과제 (2402 김세진, 2408 이구병)
 
 * Nike Clone Coding
-* https://nouxxxx.github.io/react-nike-clonecod  
+* https://nouxxxx.github.io/react-nike-clonecodeing/index.html
