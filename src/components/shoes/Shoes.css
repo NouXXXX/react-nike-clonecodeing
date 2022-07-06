@@ -1,0 +1,35 @@
+.shoes {
+    width: 100%;
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.shoes > div {
+    display: flex;
+    justify-content: center;
+}
+
+.shoes > div p {
+    margin: 1rem 2rem;
+    font-size: 1.2rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.shoes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1.2rem;
+    padding: 1rem;
+}
+
+.shoes img {
+    width: 437.33px;
+}
+
+
+
+
+

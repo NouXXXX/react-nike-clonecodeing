@@ -1,19 +1,19 @@
-import "./styles.css";
-import NavMenu from "./components/NavMenu/NavMenu";
-import MainPage from "./components/MainPage/MainPage";
-import Body from "./components/Body/Body";
-import Video2 from "./components/MainPage/Mainvideo";
-import Footer from "./components/Footer/Footer";
-import React from "react";
-
-export default function App() {
+import React from 'react'
+import Featured from './components/featured/Featured'
+import Video from './components/video'
+import Shoes from './components/shoes/Shoes'
+import Navbar from './components/navbar/Navbar'
+import Footer from './components/footer/Footer'
+function App() {
   return (
-    <div className="App">
-      <NavMenu />
-      <MainPage />
-      <Body />
-      <Video2 />
-      <Footer />
-    </div>
+    <>
+    <Navbar />
+    <Video />
+    <Shoes />
+    <Featured />
+    <Footer />
+    </>
   );
 }
+
+export default App;

@@ -1,31 +1,50 @@
-import "./Footer.css";
-export default function Footer() {
-  return (
-    <div className="footer">
-      <li>매장 안내</li>
-      <li>나이키 채널</li>
-      <li>로그인</li>
-      <li>멤버 가입</li>
+import React from 'react'
 
-      <ul>
-        고객센터
-        <li>080-022-0182</li>
-        <li>주문/결제</li>
-        <li>배송</li>
-        <li>주문배송조회</li>
-        <li>멤버십 혜택/서비스</li>
-        <li>공지사항</li>
-        <li>1:1 채팅 문의</li>
-        <li>이용약관</li>
-        <li>개인정보처리방침</li>
-      </ul>
+import {FaFacebook, FaInstagram, FaTwitter, FaPinterest} from 'react-icons/fa'
 
-      <ul>
-        ABOUT NIKE
-        <li>나이키에 대하여</li>
-      </ul>
+import './Footer.css'
 
-      <li>SOCIAL</li>
-    </div>
-  );
+const Footer = () => {
+    return (
+        <div className='footer'>
+            <div className='social'>
+                <FaFacebook className='icon' />
+                <FaInstagram className='icon' />
+                <FaTwitter className='icon' />
+                <FaPinterest className='icon' />
+            </div>
+            <div className='container'>
+                <div className='col'>
+                    <h3>About</h3>
+                    <p>Company</p>
+                    <p>Details</p>
+                    <p>Planning</p>
+                    <p>About Us</p>
+                </div>
+                <div className='col'>
+                    <h3>Company</h3>
+                    <p>Company</p>
+                    <p>Details</p>
+                    <p>Planning</p>
+                    <p>About Us</p>
+                </div>
+                <div className='col'>
+                    <h3>Legal</h3>
+                    <p>Company</p>
+                    <p>Details</p>
+                    <p>Planning</p>
+                    <p>About Us</p>
+                </div>
+                <div className='col'>
+                    <h3>Information</h3>
+                    <p>Company</p>
+                    <p>Details</p>
+                    <p>Planning</p>
+                    <p>About Us</p>
+                </div>
+            </div>
+        </div>
+    )
 }
+
+export default Footer

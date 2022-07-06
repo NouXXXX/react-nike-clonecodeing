@@ -1,0 +1,89 @@
+.band {
+    width : 100%;
+    max-width : 600px;
+    margin : 0 auto;
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap : 50px;
+    margin-left: 100px;
+}
+
+.product {
+    float : right;
+    margin-right : 250px;
+    margin-top : 100px;
+}
+
+.band > img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.select{
+    float : right;
+    
+}
+
+
+.size {
+    width : 100%;
+    max-width : 200px;
+    margin : 0 auto;
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap : 1vw;
+    float : right;
+    margin-top : 1vw;
+    margin-left : 10vw;
+}
+
+.size button{
+    border : 0.3px solid #000;
+    width : 5vw;
+    height : 3vw;
+    background-color: white;
+    border-radius: 0.5vw;
+    margin-left : 0.2vw;
+
+} 
+
+
+.box{
+    float : right;
+}
+
+#now{
+    width : 31vw;
+    height : 3vw;
+    border-radius : 3vw;
+    background-color: black;
+    color : white;
+    margin-bottom : 1vw;
+}
+
+#basket, #wish{
+    width : 15vw;
+    height : 3vw;
+    border-radius: 3vw;
+    background-color : white;
+}
+
+#wish{
+    margin-left : 1vw;
+}
+
+.line {
+    width: 600px;
+    height: 2px;
+    background: #c4c4c4;
+    margin-top : 20px;
+    margin-bottom : 20px;
+  }
+  
+  .explain{
+    float : right;
+  }
